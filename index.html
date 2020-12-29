@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camera</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <main>
-        <div class="title">
-            <span class="span">Take picture with JavaScript</span>
-            <button onclick="takeSnapshot()" class="btn">Tirar foto</button>
-        </div>
-        <section class="content">
-        
-        <video id="video" autoplay></video>
-        
-        <img class="img">
-        
+        <section class="container">
+            <section class="title">
+                <span class="span">Take picture with JavaScript</span>
+                <button onclick="takeSnapshot()" class="btn">Tirar foto</button>
+            </section>
+            <section class="content">
+            
+            <video id="video" autoplay></video>
+            
+            <img class="img">
+            
+            </section>
         </section>
     </main>
 
 
     <footer class="footer">
-        <em>Desenvolvido por William Sgobi</em>
-        <span onclick="openGit()" class="linkGit">Ver código fonte</span>
+        <em>JavaScript + CSS + HTML5</em>
+        <a class="linkGit" href="https://github.com/williamsgobi/camerajs" target="_blank">Ver código no git</a>
     </footer>
 
     <script src="./script.js"></script>

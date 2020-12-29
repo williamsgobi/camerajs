@@ -2,7 +2,7 @@ const btn = document.querySelector('.btn');
 const img = document.querySelector('.img')
 const video = document.querySelector('#video');
 
-const constraints = {video: {width: 480, height: 320, facingMode: 'user'}};
+const constraints = {video: {width: 320, height: 240, facingMode: 'user'}};
 
 function startVideoFromCamera() {
      navigator.mediaDevices.getUserMedia(constraints).then(stream => {
